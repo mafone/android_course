@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:orderInCategory="1"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"
+        android:id="@+id/action_search"/> <!-- orderInCategory is only needed when we have several items, but we're just ordering it as 1 since it's the 1st menu item -->
+                                          <!-- showAsAction makes the menu item work like a button -->
+</menu>
